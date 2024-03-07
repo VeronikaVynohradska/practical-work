@@ -1,0 +1,29 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  html {
+    display: table;
+  }
+  
+  canvas {
+    width: 900px;
+    height: 200px;
+    display: block;
+    position: relative;
+    background: transparent;
+    margin: 40px auto;
+  }
+  
+  body {
+    background: #000000 url('https://aif-s3.aif.ru/images/032/978/5af3dfb3d48cf7af71a56af17f9b8587.jpg') top center / cover no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }  

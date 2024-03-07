@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.icon {
+  margin: 0 5px;
+}
+
+.handwritten {
+  margin-top: 20px;
+  border: 1px solid #000;
+}
+
+.top-section {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.main-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.text-content {
+  float: left;
+  width: 50%;
+}
+
+.buttons-container {
+  clear: both;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+}
+
+.menu-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.menu-container-list {
+  list-style-type: none;
+}
+
+.menu-container-list a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  display: block;
+  padding: 5px 10px;
+}
+
+.menu-container-list-item ul {
+  padding-left: 20px;
+}
+
+.close {
+  display: block;
+  text-align: right;
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.popover {
+  display: none;
+}
+
+.popover:target {
+  display: block;
+}
+
+
+/* general table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+table, td {
+  border: 1px solid #d4d4d4; /* subtle border */
+}
+
+/* improve image display within table */
+td img {
+  margin: 5px;
+  border: 1px solid #d4d4d4; /* subtle border around images */
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.image-grid td {
+  padding: 0;
+  text-align: center;
+}
+
+.story-content {
+  vertical-align: middle;
+  width: 40%;
+}
+
+.image-grid td img {
+  margin: 0;
+}
+
+/* style tables used to create calendars */
+.styleCalendar td {
+  width: 33.3%;
+  height: 100px;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  background-color: #2d3436; /* using flat color instead of gradient */
+}
+
+.styleCalendar td a {
+  text-decoration: none;
+  color: black;
+}
+
+.styleCalendar a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* apply colors */
+.styleCalendar tr:nth-child(1) td:nth-child(odd),
+.styleCalendar tr:nth-child(3) td:nth-child(odd) {
+  background-color: #dfe6e9; /* using flat color */
+}
+
+.styleCalendar tr:nth-child(2) td:nth-child(even),
+.styleCalendar tr:nth-child(4) td:nth-child(even) {
+  background-color: #dfe6e9;
+}
+
+/* mirror color scheme for calendar 2023 */
+.styleCalendar.second td {
+  background-color: #dfe6e9;
+}
+
+.styleCalendar.second tr:nth-child(1) td:nth-child(odd),
+.styleCalendar.second tr:nth-child(3) td:nth-child(odd) {
+  background-color: #2d3436;
+}
+
+.styleCalendar.second tr:nth-child(2) td:nth-child(even),
+.styleCalendar.second tr:nth-child(4) td:nth-child(even) {
+  background-color: #2d3436;
+}
+
+.styleCalendar td:hover {
+  background-color: #f5f6fa;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0984e3;
+  border: 2px solid #0066cc;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #0066cc;
+}

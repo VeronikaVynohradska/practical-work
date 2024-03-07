@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+body {
+    background-color: #e0e0e0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+.mainbody{
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header-content, .text-content h2 {
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.main-image {
+    max-width: 50%;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.greeting {
+  opacity: 1;
+  transition: opacity 2s;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  z-index: 5;
+}
+
+.welcome-section {
+  opacity: 0;
+  transition: opacity 2s;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  z-index: 15;
+}
+
+.top-section {
+  opacity: 0;
+  transition: opacity 2s;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.no-js .greeting, .no-js .top-section, .no-js .typing-demo, .no-js .welcome-section {
+    opacity: 1;
+    transition: none;
+}
+
+.no-js .greeting, .no-js .welcome-section {
+    position: static;
+    transform: none;
+}
+
+.no-js .typing-demo {
+    border-right: none;
+    animation: none;
+}
+
+.no-js .header-content {
+    position: static;
+}
+
+.polaroid img {
+    border: 25px solid #172121;
+    border-top-width: 35px;
+    border-bottom-width: 100px;
+    -webkit-box-shadow: 3px 3px 6px 4px #888;
+    -moz-box-shadow: 3px 3px 6px 4px #888;
+    box-shadow: 3px 3px 6px 4px #888;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#google-search-form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 50%;
+    max-width: 400px;
+}
+
+#google-search-form input[type="search"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #172121;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#google-search-form button {
+    padding: 0 15px;
+    background-color: #172121;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+#google-search-form button:hover {
+    background-color: black;
+}

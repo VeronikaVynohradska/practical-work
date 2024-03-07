@@ -1,0 +1,28 @@
+.dropdownContainer {
+    position: relative;
+}
+
+.contentBlock {
+    max-height: 0;
+    overflow: hidden;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.3s ease, max-height 0.3s ease;
+    position: absolute; 
+    background: lightslategray; 
+    z-index: 1;
+    width: 200px;
+    left: 0;
+    border: 1px solid  black;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: lightgray;
+}
+
+.no-js .stickyHeader{
+    position: relative;
+}

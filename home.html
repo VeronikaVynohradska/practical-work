@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/tables.css">
+    <link rel="stylesheet" href="styles/btn.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/other.css">
+    <link rel="stylesheet" href="styles/headings.css">
+    <link rel="stylesheet" href="styles/appear.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/no-js-message.css">
+    <link rel="stylesheet" href="styles/video.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="maincases" align="center">Home - Kharkiv</h1>
+        <hr class="handwritten">
+    </header>
+
+    <main>
+        <section class="content-section text-block-margin">
+            <h3 class="months">You've already got my passion about travelling. But my heart belongs to this place forever.</h3>
+            <h2>It's time to introduce my home city: Kharkiv</h2>
+        </section>
+
+        <section class="video-container">
+
+            <section class="video-box">
+                <video id="video1" controls muted>
+                    <source src="video/Download (2).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+        
+            <section class="video-box">
+                <video id="video3" controls muted autoplay>
+                    <source src="video/Download.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+        
+            <section class="video-box">
+                <video id="video2" controls muted autoplay>
+                    <source src="video/Download (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
+            <section class="video-box">
+                <video id="video4" controls muted>
+                    <source src="video/Download (4).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+        </section>
+    </main>
+    <br>
+
+    <footer class="svg">
+        <svg width="200" height="100">
+            <defs>
+            <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(192,192,192);stop-opacity:1" />
+            </linearGradient>
+            <filter id="blurEffect" x="-10" y="-10" width="200" height="200">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" />
+            </filter>
+            </defs>
+            <a href="back-home.html">
+            <path fill="#192424" stroke="#000" stroke-width="2" filter="url(#blurEffect)"
+                    d="M50,90 C0,90 0,30 50,30 L150,30 C200,30 200,90 150,90 z" />
+            <text x="100" y="60">Click Me</text>
+            </a>
+        </svg>
+    </footer>
+
+    <nav class="no-js menu-container">
+        <h2><a href="#main-menu" id="explore">Explore</a></h2>
+    </nav>
+    
+    <nav id="main-menu" class="no-js main-menu-container">    
+        <a href="#" id="close">X</a>
+        <ul>
+            <li><a href="home.html" data-text="&nbsp;My Home&nbsp;">&nbsp;My Home&nbsp;</a></li>
+            <li><a href="index.html" data-text="&nbsp;Main Page&nbsp;">&nbsp;Main Page&nbsp;</a></li>
+            <li><a href="calendar.html" data-text="&nbsp;Calendar&nbsp;">&nbsp;Calendar&nbsp;</a></li>
+            <li><a href="calendar2022.html" data-text="&nbsp;Calendar 2022&nbsp;">&nbsp;Calendar 2022&nbsp;</a>
+                <ul class="no-js submenu">
+                    <li><a href="march2022.html" data-text="&nbsp;March&nbsp;">&nbsp;March&nbsp;</a></li>
+                    <li><a href="july2022.html" data-text="&nbsp;July&nbsp;">&nbsp;July&nbsp;</a></li>
+                    <li><a href="september2022.html" data-text="&nbsp;September&nbsp;">&nbsp;September&nbsp;</a></li>
+                    <li><a href="october2022.html" data-text="&nbsp;October&nbsp;">&nbsp;October&nbsp;</a></li>
+                </ul>
+            </li>
+            <li><a href="calendar2023.html" data-text="&nbsp;Calendar&nbsp;">&nbsp;Calendar 2023&nbsp;</a>
+                <ul class="no-js submenu">
+                    <li><a href="january2023.html" data-text="&nbsp;January&nbsp;">&nbsp;January&nbsp;</a></li>
+                    <li><a href="february2023.html" data-text="&nbsp;February&nbsp;">&nbsp;February&nbsp;</a></li>
+                    <li><a href="april2023.html" data-text="&nbsp;April&nbsp;">&nbsp;April&nbsp;</a></li>
+                    <li><a href="june2023.html" data-text="&nbsp;June&nbsp;">&nbsp;June&nbsp;</a></li>
+                    <li><a href="august2023.html" data-text="&nbsp;August&nbsp;">&nbsp;August&nbsp;</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html" data-text="&nbsp;Gallery&nbsp;">&nbsp;Gallery&nbsp;</a></li>
+            <li><a href="future-plans.html" data-text="&nbsp;Future Plans&nbsp;">&nbsp;Future Plans&nbsp;</a></li>
+            <li><a href="suggestions.html" data-text="&nbsp;Propositions&nbsp;">&nbsp;Propositions&nbsp;</a></li>
+        </ul>
+    </nav>
+</body>
+<script src="script/menu.js"></script>
+<script src="script/appearance.js"></script>
+<script src="script/hot-keys.js"></script>
+<script src="script/headings.js"></script>
+<script src="script/navbar.js"></script>
+<script src="script/video.js"></script>
+</html>

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+body{
+    background-color: lightgray;
+}
+
+#container {
+  width:100%;
+}
+
+.months-container {
+    text-align: center;
+    position: relative;
+    font-size: 36px;
+}
+
+hr.handwritten {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #192424, transparent);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    line-height: 0;
+}
+
+.story-text {
+    font-family: 'Patrick Hand', cursive;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 50%;
+    cursor: url('image/icons8-mouse-35.png') 16 16, auto;
+    flex: 1;
+}
+
+.story-text:hover {
+    height: auto;
+}
+
+.story-text::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(rgba(33, 34, 37, 0.2), rgba(33, 34, 37, 1));
+    transition: height 0.3s ease;
+}
+
+.story-text:hover::before {
+    height: 0;
+}
+
+.story-text h3{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.drop-cap::first-letter {
+    font-size: 3.5em;
+    float: left;
+    margin: 0.05em 0.1em 0 0;
+    font-weight: 600;
+    color: #172121;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.bordered {
+    margin: 30px 30px;
+}
+
+.accordion-content {
+    display: none;
+    transition: max-height 0.3s ease;
+    align-items: center;
+    text-align: center;
+}
+
+.accordion-title {
+    cursor: pointer;
+}
+
+.no-js .accordion-content {
+    display: block;
+}
+
+p.navbar {
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.adventure-story {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-gallery {
+    flex-basis: 40%;
+}
+
+.story-content {
+    flex-basis: 60%;
+}

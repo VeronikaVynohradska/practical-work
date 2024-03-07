@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+#explore {
+  bottom: 10px;
+  z-index: 6;
+  text-align: center;
+  cursor: pointer;
+  color: #172121;;
+  text-decoration: none;
+}
+
+#explore:hover {
+  text-decoration: underline;
+}
+
+
+#close {
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  z-index: 25;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: lightgray;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#close:hover {
+  transform: scale(1.1);
+}
+
+.main-menu-container.hidden {
+  display: none;
+  transform: translateY(-100vh);
+  transition: transform 0.5s ease-in-out;
+}
+
+.main-menu-container:not(.loaded) {
+  transform: translateY(-100vh);
+  transition: none;
+}
+
+.main-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka One', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #172121;
+  transform: translateY(-100vh);
+  transition: transform 0.5s ease-in-out;
+  z-index: 100;
+}
+
+.main-menu-container.active {
+  transform: translateY(0); 
+}
+
+ul{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+ul li {
+  position: relative;
+  font-size: 4em;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: transparent; 
+  overflow: hidden;
+}
+
+ul li a {
+  position: relative;
+  display: inline-block;
+  color: transparent; 
+  -webkit-text-stroke: 1px rgba(225, 225, 225, 0.5);
+}
+
+ul li a::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  width: 0;
+  transition: 1s;
+  border-right: 8px solid transparent; 
+  -webkit-text-stroke: 1px rgba(225, 225, 225, 0.5);
+}
+
+ul li a:hover::before{
+  color: white; 
+  width: 100%;
+  border-right: 8px solid white;
+}
+
+ul .submenu {
+  visibility: hidden;
+  opacity: 0;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #172121;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+}
+
+ul .submenu li {
+  font-size: 0.8em;
+}
+
+ul li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  max-height: 500px;
+}
+
+/*no-js version*/
+.no-js .main-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(40, 42, 53, 0.95);
+  transform: translateY(-100vh);
+  transition: transform 0.5s ease-in-out;
+  z-index: 1000;
+}
+
+#main-menu:target {
+  transform: translateY(0);
+}
+
+#explore:target ~ .main-menu-container {
+  transform: translateY(0);
+}
+
+.no-js .menu-container {
+  cursor: pointer;
+}
+
+.no-js ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.no-js ul li a {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(225, 225, 225, 0.5);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.no-js ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  transition: 1s;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(225, 225, 225, 0.5);
+  border-right: 8px solid transparent;
+}
+
+.no-js ul li a:hover::before {
+  width: 100%;
+  color: white;
+  border-right: 8px solid white;
+}
+
+.no-js ul .submenu {
+  flex-direction: column;
+  gap: 15px;
+  background-color: #172121;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.no-js ul li:hover .submenu {
+  max-height: 500px;
+}
+
+#main-menu:target #close {
+  display: flex;
+}

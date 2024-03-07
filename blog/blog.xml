@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="blog.xslt"?>
+<blogpage>
+    <post id="1" author="Veronica">
+        <title>A Memorable Trip to Poland</title>
+        <date>2023-01-28</date>
+
+        <content>
+            <section>
+                <header>Reunion in Gdansk</header>
+                <p>In Gdansk, I reunited with my close friend Lisa and her mother. Despite my exams, we explored the beautiful cities of Gdansk, Sopot, and Gdynia, each offering unique and memorable experiences.</p>
+            </section>
+            <section>
+                <header>Exploring Warsaw</header>
+                <p>Our visit to Warsaw was highlighted by a visit to the "Polin" museum, a profound experience that deepened my appreciation for history. Unexpectedly, a heavy snowfall in Warsaw led to a change in plans, with us spending hours in a café to stay warm and dry.</p>
+            </section>
+            <section>
+                <header>Cherished Memories</header>
+                <p>This trip was more than just a vacation; it was a blend of adventure, cultural exploration, and the joy of rekindling long-distance friendships. It left me with memories I'll cherish forever.</p>
+            </section>
+        </content>
+
+        <image url="path/to/image1.jpg"/>
+        <keywords>Poland, Travel, Adventure, Friendship, Warsaw, Gdansk, Cultural Exploration</keywords>        
+        
+        <comments>
+            <comment id="11">
+                <author>Danya</author>
+                <date>2023-01-29</date>
+                <content>Sounds like a really exhausting start to your day. Hope you can catch up on some rest during your travels.</content>
+                <comments>
+                    <comment id="111">
+                        <author>Veronica</author>
+                        <date>2023-01-29</date>
+                        <content>Thanks, will try</content>
+                    </comment>
+                    <comment id="112">
+                        <author>Sonya</author>
+                        <date>2023-01-30</date>
+                        <content>Agree, she is insane</content>
+                    </comment>
+                </comments>
+            </comment>
+
+            <comment id="12">
+                <author>Dasha</author>
+                <date>2023-01-30</date>
+                <content>What an inspiring journey! Your experience in Poland, especially in Warsaw with the heavy snowfall, sounds like a true adventure. It's amazing how you balanced sightseeing with your studies and still managed to enjoy every moment. This post makes me want to visit Poland too, especially the "Polin" museum in Warsaw. Thanks for sharing!</content>                <comments>
+                    <comment id="121">
+                        <author>Veronica</author>
+                        <date>2023-01-30</date>
+                        <content>It was, haha</content>
+                    </comment>
+                    <comment id="122">
+                        <author>Lisa</author>
+                        <date>2023-01-31</date>
+                        <content>I treated Veronica the best way</content>
+                        <comments>
+                            <comment id="1221">
+                                <author>Veronica</author>
+                                <date>2023-01-31</date>
+                                <content>Definitely!</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="2" author="Veronica">
+        <title>A Birthday in Venice</title>
+        <date>2023-02-22</date>
+        <content>
+            <p>I wanted to celebrate my 18th birthday in a special way. Initially planning for Amsterdam, my journey took an unexpected turn towards Venice. This shift was a delightful surprise, arranged by my parents, leading to a memorable birthday celebration.</p>
+            <p>The journey was an adventure itself, choosing a night bus to save money. The lengthy trip from my hometown to Venice spanned over 20 hours, testing our endurance but filling us with anticipation.</p>
+        </content>
+
+        <image url="images/general/18th-birthday/venice-top-photo.jpg"/>
+        <keywords>18th Birthday, Venice, Travel, Adventure</keywords>
+
+        <comments>
+            <comment id="21">
+                <author>Masha</author>
+                <date>2023-02-23</date>
+                <content>Happy birthday, sweetheart 💖</content>
+                <comments>
+                    <comment id="211">
+                        <author>Veronica</author>
+                        <date>2023-02-23</date>
+                        <content>Thank you, miss so much</content>
+                    </comment>
+                    <comment id="212">
+                        <author>Alisa</author>
+                        <date>2023-02-23</date>
+                        <content>Joining greetings 🎉🎉</content>
+                        <comments>
+                            <comment id="2121">
+                                <author>Veronica</author>
+                                <date>2023-11-30</date>
+                                <content>Tnx 😊😊😊</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+
+            <comment id="22">
+                <author>Larysa</author>
+                <date>2023-02-24</date>
+                <content>Hope you don't regret about such difficult way to get there</content>
+                <comments>
+                    <comment id="221">
+                        <author>Veronica</author>
+                        <date>2023-02-24</date>
+                        <content>No way!!</content>
+                    </comment>
+                    <comment id="222">
+                        <author>Dasha</author>
+                        <date>2023-02-25</date>
+                        <content>She is too adventures for that</content>
+                        <comments>
+                            <comment id="2221">
+                                <author>Veronica</author>
+                                <date>2023-02-25</date>
+                                <content>Ahah, yeah, thats true</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="3" author="Veronica">
+        <title>Exploring Venice and Bolonia</title>
+        <date>2023-02-26</date>
+        <content>
+            <p>Venice greeted us with its otherworldly charm, reminiscent of a mix between Italian culture and the watery streets of Stockholm. The city's unique transportation, the <i>vaporetto</i>, was an experience in itself, crowded yet quintessentially Venetian.</p>
+            <p>A spontaneous decision led us to Bolonia, where a day without mobile data turned into a day of pure exploration. Museums, city vibes, and local cuisine marked our visit, concluding with a relaxing evening of aperol and seafood.</p>
+        </content>
+
+        <image url="images/general/18th-birthday/me-in-bolonia.jpg"/>
+        <keywords>Venice, Bolonia, Italy, Travel, Exploration</keywords>
+
+        <comments>
+            <comment id="31">
+                <author>Olena</author>
+                <date>2023-02-27</date>
+                <content>Sounds interesting, did you like it?</content>
+                <comments>
+                    <comment id="311">
+                        <author>Veronica</author>
+                        <date>2023-02-28</date>
+                        <content>Yep</content>
+                    </comment>
+            </comment>
+
+            <comment id="32">
+                <author>Mark</author>
+                <date>2023-02-27</date>
+                <content>Wow, Veronika you write so nice way, I feel like was with you side by side!</content>
+                <comments>
+                    <comment id="321">
+                        <author>Veronica</author>
+                        <date>2023-02-28</date>
+                        <content>Trying to describe as realistic as possible, thank you 🙈</content>
+                    </comment>
+                    <comment id="322">
+                        <author>Wexel</author>
+                        <date>2023-02-28</date>
+                        <content>Really, that's amazing!</content>
+                        <comments>
+                            <comment id="3221">
+                                <author>Veronica</author>
+                                <date>2023-02-28</date>
+                                <content>Happy that you liked it</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="4" author="Veronica">
+        <title>Embracing Independence in Ireland</title>
+        <date>2023-06-12</date>
+        <content>
+            <section>
+                <header>New Beginnings</header>
+                <p>At 18, I eagerly moved to Ireland, seeking independence. Landing in Dublin with just a backpack and a suitcase, I was ready for my new life.</p>
+            </section>
+            <section>
+                <header>Challenges in Athlone</header>
+                <p>Life in Athlone was challenging. Staying in an overcrowded former school, I faced tough living conditions and a lack of English communication.</p>
+            </section>
+            <section>
+                <header>Finding Joy in Galway</header>
+                <p>My move to Galway was a turning point. This ocean-side city offered me happiness and a sense of belonging. It has now become my beloved home.</p>
+            </section>
+        </content>
+
+        <images>
+            <image url="images/general/adult's-life/dublin.jpg" alt="Dublin"/>
+            <image url="images/general/adult's-life/athlone.jpg" alt="Athlone"/>
+            <image url="images/general/adult's-life/me-in-galway.jpeg" alt="Me in Galway"/>
+        </images>
+        <keywords>Independence, Ireland, Dublin, Athlone, Galway</keywords>
+
+        <comments>
+            <comment id="41">
+                <author>Yana</author>
+                <date>2023-06-16</date>
+                <content>Miss you already, good luck with new housemates 💋💋</content>
+                <comments>
+                    <comment id="411">
+                        <author>Veronica</author>
+                        <date>2023-06-16</date>
+                        <content>Thank you, sis</content>
+                    </comment>
+                    <comment id="412">
+                        <author>Alla</author>
+                        <date>2023-06-17</date>
+                        <content>She deserves it!</content>
+                        <comments>
+                            <comment id="4121">
+                                <author>Veronica</author>
+                                <date>2023-06-18</date>
+                                <content>🥹🥹🤞🏼</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+
+            <comment id="42">
+                <author>Viktoriya</author>
+                <date>2023-06-17</date>
+                <content>Wish you all the best, baby girl</content>
+                <comments>
+                    <comment id="421">
+                        <author>Veronica</author>
+                        <date>2023-06-18</date>
+                        <content>Thank you, hope to see soon</content>
+                    </comment>
+                    <comment id="422">
+                        <author>Vika</author>
+                        <date>2023-06-19</date>
+                        <content>She will succeed, with her English no other way, haha</content>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="5" author="Veronica">
+        <title>Reunion in Paris</title>
+        <date>2023-06-23</date>
+        <content>
+            <p>Reuniting with Dasha, my friend and former basketball teammate, was a dream come true. After two years apart, we met up in Paris, a city she'd always dreamed of visiting. Despite my exhaustion, we explored the city from dawn till midnight, embracing every moment in the City of Lights.</p>
+        </content>
+
+        <images>
+            <image url="images/general/with-dasha/me-in-paris.jpg" alt="Me in Paris"/>
+            <image url="images/general/with-dasha/paris2.jpg" alt="Paris view"/>
+        </images>
+        <keywords>Paris, Reunion, Friendship, Adventure</keywords>
+
+        <comments>
+            <comment id="51">
+                <author>Dasha</author>
+                <date>2023-06-23</date>
+                <content>Thank you for all these warm words, girlie</content>
+                <comments>
+                    <comment id="511">
+                        <author>Veronica</author>
+                        <date>2023-06-23</date>
+                        <content>It's truth!</content>
+                    </comment>
+                    <comment id="512">
+                        <author>Will</author>
+                        <date>2023-06-24</date>
+                        <content>She advertised you so good, that I wanna get to know closer, maybe you've insta?</content>
+                        <comments>
+                            <comment id="5121">
+                                <author>Dasha</author>
+                                <date>2023-06-25</date>
+                                <content>Sorry, taken already</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="6" author="Veronica">
+        <title>Exploring Ireland with Dasha</title>
+        <date>2023-07-04</date>
+        <content>
+            <p>In Ireland, I showed Dasha around, visiting Dublin, Athlone, and Limerick. One spontaneous decision led us to a national park for an adventurous hiking day. Our ten days together were filled with laughter, exploration, and countless photos to cherish the memories.</p>
+        </content>
+
+        <images>
+            <image url="images/general/with-dasha/me-in-galway.jpg" alt="Me in Galway"/>
+            <image url="images/general/with-dasha/me-in-dublin.jpg" alt="Me in Dublin"/>
+        </images>
+        <keywords>Ireland, Dublin, Galway, Adventure, Hiking</keywords>
+
+        <comments>
+            <comment id="61">
+                <author>Lisa</author>
+                <date>2023-07-05</date>
+                <content>Wanna come to you if it's possible</content>
+                <comments>
+                    <comment id="611">
+                        <author>Veronica</author>
+                        <date>2023-07-05</date>
+                        <content>Girrrl, you are more than welcome whenever you want</content>
+                    </comment>
+                    <comment id="612">
+                        <author>Masha</author>
+                        <date>2023-07-05</date>
+                        <content>Let's make a former lyceums party in Ireland 😎</content>
+                        <comments>
+                            <comment id="6121">
+                                <author>Veronica</author>
+                                <date>2023-07-06</date>
+                                <content>Haha, biggest partier in da house</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+
+            <comment id="62">
+                <author>Dasha</author>
+                <date>2023-07-06</date>
+                <content>Thank you for these 2 weeks, see you in 2 years? 😅</content>
+                <comments>
+                    <comment id="621">
+                        <author>Veronica</author>
+                        <date>2023-07-06</date>
+                        <content>Haha, who knows..</content>
+                    </comment>
+                    <comment id="622">
+                        <author>Viola</author>
+                        <date>2023-07-07</date>
+                        <content>Omg, so long time</content>
+                        <comments>
+                            <comment id="6221">
+                                <author>Veronica</author>
+                                <date>2023-07-07</date>
+                                <content>Yeah.. Two busy ladies</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="7" author="Veronica">
+        <title>French Escapades: Lyon, Marseille, and Nice</title>
+        <date>2023-08-10</date>
+        <content>
+            <section>
+                <header>Lyon: A Fabulous Surprise</header>
+                <p>After a hitchhiking adventure from Paris, I found myself in Lyon, a city of stunning architecture and unexpected charm, thanks to Yacine's hospitality.</p>
+                <image url="images/for-gallery/august2023/france/lyon3.jpg" alt="Lyon"/>
+            </section>
+            <section>
+                <header>Marseille: The City of Contrasts</header>
+                <p>Marseille presented a mix of challenges and delights, from the struggle to find a ride to spontaneous salsa nights and deep conversations about life and the city's vibrant spirit.</p>
+                <image url="images/for-gallery/august2023/france/marseille3-maybe-to-the-main.jpg" alt="Marseille"/>
+            </section>
+            <section>
+                <header>Nice: Azure Adventures</header>
+                <p>In Nice, I experienced the azure beauty of hidden beaches, cultural exploration at the Chagall Museum, and ended my days with sunset views and heartfelt talks with my host, Jean.</p>
+                <image url="images/for-gallery/august2023/france/me-in-nice.jpg" alt="Nice"/>
+            </section>
+        </content>
+
+        <keywords>Lyon, Marseille, Nice, Travel, Adventure, France</keywords>
+
+        <comments>
+            <comment id="71">
+                <author>Danya</author>
+                <date>2023-08-10</date>
+                <content>Somebody, please stop this crazy girlie</content>
+                <comments>
+                    <comment id="711">
+                        <author>Veronica</author>
+                        <date>2023-08-10</date>
+                        <content>It's impossible</content>
+                    </comment>
+                    <comment id="712">
+                        <author>Yaroslava</author>
+                        <date>2023-08-11</date>
+                        <content>It could probably become possible in a couple of years</content>
+                        <comments>
+                            <comment id="7121">
+                                <author>Veronica</author>
+                                <date>2023-08-12</date>
+                                <content>Mom, nope. Never!</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+
+            <comment id="72">
+                <author>Kir</author>
+                <date>2023-08-11</date>
+                <content>Which city did you like the most?</content>
+                <comments>
+                    <comment id="721">
+                        <author>Veronica</author>
+                        <date>2023-08-11</date>
+                        <content>Hm, probably Lyon.. or Nice.. I'm mot sure, hehe</content>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="8" author="Veronica">
+        <title>Italian Escapade: Genoa to Florence</title>
+        <date>2023-08-21</date>
+        <content>
+            <section>
+                <header>Genoa: Hidden Beaches and Night Explorations</header>
+                <p>My brief 17-hour stay in Genoa was a whirlwind of adventure, from a hidden rock beach accessed by yacht to exploring the night city, and ending with an early morning wait at the bus station with fresh focaccia in hand.</p>
+            </section>
+            <section>
+                <header>Milan: A Day of Galleries and Charming Hosts</header>
+                <p>In Milan, I indulged in a day of sightseeing and gallery visits, marveling at the city's beauty. The evening was spent with my host, sharing stories over delicious wine.</p>
+            </section>
+            <section>
+                <header>Como and Florence: Lakeside Beauty and Sunstroke Misadventures</header>
+                <p>A quick trip to Como was a check off the list, while Florence brought food and rest, a sunstroke at the cathedral, and ended with a breathtaking rooftop party.</p>
+            </section>
+        </content>
+
+        <images>
+            <image url="images/general/crazy-month/milan.jpg" alt="Milan"/>
+            <image url="images/general/crazy-month/florence.jpg" alt="Florence"/>
+        </images>
+        <keywords>Genoa, Milan, Como, Florence, Italy, Adventure, Travel</keywords>
+
+        <comments>
+            <comment id="81">
+                <author>Vova</author>
+                <date>2023-08-22</date>
+                <content>How could you be so brave to stay with random guys?</content>
+                <comments>
+                    <comment id="811">
+                        <author>Veronica</author>
+                        <date>2023-08-23</date>
+                        <content>Actually, it's quite safe, just have to follow several rules</content>
+                        <comments>
+                            <comment id="8111">
+                            <author>Vova</author>
+                            <date>2023-08-24</date>
+                            <content>FOr example</content>
+                            <comments>
+                                <comment id="81111">
+                                <author>Veronica</author>
+                                <date>2023-08-24</date>
+                                <content>Like reading references before accepting an offer to stay at somebody's place</content>
+                            </comments>
+                        </comments>
+                    </comment>
+                    <comment id="812">
+                        <author>Oksana</author>
+                        <date>2023-08-25</date>
+                        <content>It's just Veronica</content>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="9" author="Veronica">
+        <title>Italian Chronicles: Rome and Naples</title>
+        <date>2023-08-24</date>
+        <content>
+            <section>
+                <header>Rome: Unexpected Extensions</header>
+                <p>Returning to Rome after years, I initially struggled to find a host. The scorching heat led me to a beach hangout, where I met Nikolas and his couchsurfer friends. This serendipitous encounter resulted in extending my stay by two days, immersing myself in Rome's unique charm.</p>
+            </section>
+            <section>
+                <header>Naples: A City of Vivid Impressions</header>
+                <p>In Naples, my journey was filled with late-night conversations, an early morning expedition to Pompei, cliff jumping in Sorento, and a night out that captured the city's intense energy. My final day was spent at the archeological museum, reflecting on Naples' striking character.</p>
+            </section>
+        </content>
+
+        <images>
+            <image url="images/general/crazy-month/rome.jpg" alt="Rome"/>
+            <image url="images/general/crazy-month/pompei.jpg" alt="Pompei"/>
+        </images>
+        <keywords>Rome, Naples, Italy, Adventure, Travel, Couchsurfing</keywords>
+
+        <comments>
+            <comment id="91">
+                <author>Barbara</author>
+                <date>2023-08-27</date>
+                <content>It has to be soo exhausting to travel in such rythm</content>
+                <comments>
+                    <comment id="911">
+                        <author>Veronica</author>
+                        <date>2023-08-28</date>
+                        <content>I don't care about tiredness, just live the moment</content>
+                    </comment>
+                    <comment id="912">
+                        <author>Yana</author>
+                        <date>2023-08-29</date>
+                        <content>Agree, but Veronica is a bomb of energy</content>
+                        <comments>
+                            <comment id="9121">
+                                <author>Veronica</author>
+                                <date>2023-08-30</date>
+                                <content>Ahahh, I'm</content>
+                            </comment>
+                        </comments>
+                    </comment>
+                </comments>
+            </comment>
+
+            <comment id="92">
+                <author>Valentina</author>
+                <date>2023-08-27</date>
+                <content>How are you, you are just a crazy 🤯🤯</content>
+                <comments>
+                    <comment id="921">
+                        <author>Veronica</author>
+                        <date>2023-08-28</date>
+                        <content>We all are in some way</content>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+
+    <post id="10" author="Veronica">
+        <title>Erasmus Adventure in Lithuania</title>
+        <date>2023-09-01</date>
+        <content>
+            <section>
+                <header>Immersive Experience at Kamariskes Manor</header>
+                <p>Participating in the Erasmus project in Lithuania was a journey of discovery and creativity. Tasked with creating a documentary about Kamariskes Manor, I delved into the world of video and music editing, embracing the manor's cultural heritage and stunning natural surroundings.</p>
+            </section>
+            <section>
+                <header>Living and Learning Together</header>
+                <p>Sharing a room with fellow Ukrainian participants, we formed a close-knit group, actively engaging in every project activity. From kayaking in the morning to working with professional equipment and dancing till the late hours, the experience was filled with energy, learning, and unforgettable moments.</p>
+            </section>
+            <section>
+                <header>Reflections and Lasting Impressions</header>
+                <p>These ten days were a blend of work, fun, and cultural exchange, leaving me with deep reflections and a sense of accomplishment. My time in Lithuania was a special chapter, marked by new friendships, skills, and a profound connection with the Erasmus community.</p>
+            </section>
+        </content>
+
+        <images>
+            <image url="images/general/crazy-month/erasmus-lithuania/cover.png" alt="Erasmus Lithuania Cover"/>
+            <image url="images/general/crazy-month/erasmus-lithuania/me-being-me.jpg" alt="Me in Lithuania"/>
+        </images>
+        <keywords>Erasmus, Lithuania, Kamariskes Manor, Documentary, Cultural Exchange</keywords>
+
+        <comments>
+            <comment id="101">
+                <author>Nata</author>
+                <date>2023-09-02</date>
+                <content>Miss you already</content>
+                <comments>
+                    <comment id="1011">
+                        <author>Veronica</author>
+                        <date>2023-09-03</date>
+                        <content>Same, baby</content>
+                    </comment>
+                </comments>
+            </comment>
+
+            <comment id="102">
+                <author>Dmytro</author>
+                <date>2023-09-03</date>
+                <content>Our second Erasmus project so far</content>
+                <comments>
+                    <comment id="1021">
+                        <author>Veronica</author>
+                        <date>2023-09-04</date>
+                        <content>And not the last</content>
+                    </comment>
+                </comments>
+            </comment>
+        </comments>
+    </post>
+</blog>

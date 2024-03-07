@@ -1,0 +1,31 @@
+body {
+    margin: 50px;
+}
+
+.travel-table {
+    background-color: white !important;
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.travel-table th,
+.travel-table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.travel-table th {
+    background-color: #172121;
+    color: white;
+    font-weight: bold;
+}
+
+.travel-table tr:hover td {
+    background-color: #e0e0e0;
+}
+
+.highlight {
+    background-color: #d1d1d1 !important;
+}

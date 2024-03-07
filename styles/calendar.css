@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    width: 100vw;
+    height: 100vh; 
+}
+
+.container .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: all 500ms ease-in;
+    opacity: 0.5;
+}
+
+.container .panel h3 {
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    text-transform: uppercase;
+    color: black;
+    background-color: rgba(199, 196, 193, 0.71);
+    border-radius: 5px;
+}
+
+.container .panel.active {
+    flex: 5;
+    opacity: 1;
+}
+
+.container .panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.container .panel:nth-child(1) {
+    background-image: url(image/in-france.jpg);
+}
+
+.container .panel:nth-child(2) {
+    background-image: url(image/pompidu.jpg);
+}
+
+.container .panel:nth-child(3) {
+    background-image: url(image/me-in-stockholm2.jpg);
+}
+
+.container .panel:nth-child(4) {
+    background-image: url(image/ketwig.jpg);
+}
+
+.container .panel.second:nth-child(1) {
+    background-image: url(image/warsaw.jpg);
+}
+
+.container .panel.second:nth-child(2) {
+    background-image: url(image/me-in-venice2.jpg);
+}
+
+.container .panel.second:nth-child(3) {
+    background-image: url(image/athlone2.jpg);
+}
+
+.container .panel.second:nth-child(4) {
+    background-image: url(image/galway.jpg);
+}
+
+.container .panel.second:nth-child(5) {
+    background-image: url(image/me-in-the-airport2.jpg);
+}
+
+.container a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.no-js .container .panel {
+    flex: 1;
+    opacity: 1;
+}
+
+.no-js .container .panel h3 {
+    opacity: 1;
+    transition: none;
+}

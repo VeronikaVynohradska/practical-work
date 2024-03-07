@@ -1,0 +1,83 @@
+.button {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  z-index: 1;
+  transition: all .4s;
+}
+
+.button::after,
+.button::before {
+  content: '';
+  position: absolute;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button::before {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #172121;
+  border-radius: 10px;
+}
+
+.button::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.button.main {
+  width: 250px;
+  padding: 15px 0;
+  font-size: 24px;
+}
+
+.button.centered-button {
+  margin-bottom: 20px;
+}

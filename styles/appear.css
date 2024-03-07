@@ -1,0 +1,11 @@
+.content-container {
+  filter: grayscale(100%) brightness(0.3);
+  opacity: 0;
+  transition: filter 1s ease-in-out, opacity 1s ease-in-out;
+  z-index: 150;
+}
+
+.no-js .content-container {
+  filter: grayscale(0%) brightness(1);
+  opacity: 1;
+}

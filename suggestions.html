@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where to go next?</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/btn.css">
+    <link rel="stylesheet" href="styles/appear.css">
+    <link rel="stylesheet" href="styles/no-js-message.css">
+</head>
+
+<body>
+    <noscript>
+        <style type="text/css">
+            #main-content { display:none; }
+        </style>
+        <section class="no-script-message">
+            Oh mon Dieu, c'est impossible!
+            <p>Are you kidding? What was the reason <b>to turn off</b> JavaScript?</p>
+            <p>Never mind, go to the settings right now and fix it!</p>
+            <p><b>Schneller!</b></p>
+            <p>Сонечко, без цього всі чудові features мого вебсайту будуть недоступні, а я витратила на те достатньо часу, тож ходи звідси, розбійнику* <b>-~-</b></p>
+        </section>
+    </noscript>
+
+    <main>
+        <section class="container">
+            <section class="centered-button">
+                <a href="index.html" class="button"><big>Main page</big></a>
+            </section>
+            
+            <form action="thank-you.html" method="post">
+                <h1>Where Should I Go Next?</h1>
+                <p>Your suggestions are welcome!</p>
+            
+                <label for="location">Suggested Location:</label>
+                <input type="text" id="location" name="location"><br><br>
+            
+                <label for="reason">Why?</label>
+                <input id="reason" name="reason" rows="4" cols="50"></textarea><br><br>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com">
+                <span id="emailError" class="validation-error"></span>
+                <button type="button" id="validateEmailJSBtn">Validate Email, JavaScript</button>
+
+                <label for="email">E-mail (html5)</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                <span id="emailError" class="validation-error"></span>             
+
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="XXXXXXXXXX">
+                <span id="phoneError" class="validation-error"></span>
+                <button id="validatePhoneBtn">Validate</button>
+
+                <button type="submit" class="button" style="margin-top: 15px;" id="submitBtn">Suggest</button><br><br>
+            </form>
+        </section>
+    </main>
+</body>
+<script src="script/appearance.js"></script>
+<script src="script/hot-keys.js"></script>
+<script src="script/form.js"></script>
+</html>

@@ -1,0 +1,83 @@
+body {
+    padding-top: 12em;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12em;
+    background-color: lightgray;
+    z-index: 2;
+}
+
+.gallery-container {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.gallery-container.active {
+    display: block;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+}
+
+.modal-content {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.close:hover{
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    cursor:  url('image/icons8-arrow-cursor-35.png') 16 16, auto; 
+}
+
+.no-js .gallery-container {
+    display: block;
+}
+.no-js .modal, .no-js .close {
+    display: none;
+}
